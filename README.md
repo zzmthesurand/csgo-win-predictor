@@ -10,7 +10,7 @@ The merged and transformed data has a total of 132,828 samples and 107 features.
 ## Data Sources
 This project uses data sourced from [Kaggle](https://www.kaggle.com/datasets/christianlillelund/csgo-round-winner-classification), PGL Antwerp 2022, PGL Stockholm 2021, and our own data. The Kaggle and Antwerp data were used to train the model, while our own data as well as the Stockholm data were used as a holdout dataset to test the model's generalizability. 
 
-The Antwerp, Stockholm, and amateur data were parsed using the [AWPY module](https://github.com/pnxenopoulos/awpy). They were parsed using the awpy_data_process.ipynb, which parses CSGO .dem files in the specified folder. This outputs .json files, which are then parsed and converted into a Pandas dataframe that fits the format of the Kaggle dataset. This is then transformed using the same pipeline that is used to transform the Kaggle data.
+The Antwerp, Stockholm, and amateur data were parsed using the [AWPY module](https://github.com/pnxenopoulos/awpy). They were parsed using the [awpy_data_process.ipynb](../master/awpy_data_process.ipynb), which parses CSGO .dem files in the specified folder. This outputs .json files, which are then parsed and converted into a Pandas dataframe that fits the format of the Kaggle dataset. This is then transformed using the same pipeline that is used to transform the Kaggle data.
 
 # Acknowledgements
 This project would not have been as extensive without Xeno's [AWPY module](https://github.com/pnxenopoulos/awpy), which has been instrumental in being able to use non-Kaggle data. This module made it possible to use any CSGO .dem file we wanted, which allowed to use the Antwerp, Stockholm, and our custom data.
