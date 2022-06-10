@@ -2,7 +2,7 @@
 A machine learning project on predicting the winner for a round in Counter-Strike: Global Offensive (CSGO).
 
 # About This Project
-This project aims to build and train a model that can predict the winner for a round of CSGO. The model uses game data such as a team's monetary value and number of players alive among others to predict the winner. The multiple models were trained, and the one that obtained the most accuracy on the onset was XGBoost. The model's hyperparameters were then tuned using Weights & Biases' sweeps. 
+This project aims to build and train a model that can predict the winner for a round of CSGO. The model uses in-game data such as a team's monetary value and number of players alive among others to predict the winner. The multiple models were trained, and the one that obtained the most accuracy on the onset was XGBoost. The model's hyperparameters were then tuned using Weights & Biases' sweeps. 
 
 # Data Info
 The merged and transformed data has a total of 132,828 samples and 107 features. The data was split using a stratified shuffle split that was stratified both on year the data was recorded (2019 for Kaggle, 2022 for Antwerp) and the round winner.
