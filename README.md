@@ -15,3 +15,5 @@ The Antwerp, Stockholm, and amateur data were parsed using the [AWPY module](htt
 # Acknowledgements
 This project would not have been as extensive without Xeno's [AWPY module](https://github.com/pnxenopoulos/awpy), which has been instrumental in being able to use non-Kaggle data. This module made it possible to use any CSGO .dem file we wanted, which allowed to use the Antwerp, Stockholm, and our custom data.
 
+### Note
+The AWPY module for the data processing ipynb should be older than AWPY 1.1.7 (changes in the data structure break the notebook)
